@@ -1,0 +1,127 @@
+/* Set the background color of body to tan */
+body {
+    background-color: #1E2952;
+    font-family: Bodoni;
+    font-size: 25px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    position: fixed;
+  }
+
+  .dropdown{
+    right: 120px;
+  }
+  
+  li a, .dropbtn {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown_content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown_content a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+  
+  .dropdown:hover .dropdown_content {
+    display: block;
+  }
+
+  @font-face {
+    font-family: Bodoni;
+    src: url('bodoni.woff');
+    }
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+
+  .Instagram {
+    display: block;
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  }
+
+  .containerPhoto-horizontal{
+    max-height: 525px;
+    max-width: 700px;
+    display: flex;
+    align-self: center;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .containerPhoto-vertical{
+    max-width: 450px;
+    max-height: 600px;
+    display: flex;
+    align-self: center;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .Test{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .panel{
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    body {
+      background-color: #1E2952;
+    }
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: #1E2952;
+      font-size: 15px;
+    }
+
+    .Instagram{
+        margin-left: 1px;
+        padding: 10px 18px;
+    }
+  }
