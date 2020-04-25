@@ -1,6 +1,11 @@
 function backgroundImage(){
     var x = document.getElementById("backgroundImage");
-    var z = document.getElementById("navbarButton");
-    var size = document.documentElement.clientWidth;
-    console.log(size);
+    var screenWidth = document.documentElement.clientWidth;
+    var screenHeight = document.documentElement.clientHeight;
+    if (screenWidth > screenHeight){
+        x.className = "img-fluid vh-100";
+    } else {
+        x.className = "img-fluid vw-100";
+    }
+
 };
