@@ -8,7 +8,7 @@
     }
     #firmaCalligrafica{
         position: absolute;
-        margin-top: 1.5%;
+        margin-top: -2.3%;
         width: 200px;
     }
 }
@@ -42,7 +42,7 @@
     #firmaCalligrafica{
         position: absolute;
         width: 200px;
-        margin-top: 1.5%;
+        margin-top: -10%;
     }
 }
 
@@ -53,6 +53,6 @@
     #firmaCalligrafica{
         position: absolute; 
         width: 200px;
-        margin-top: 1.5%;
+        margin-top: -2.3%;
     }
 }
