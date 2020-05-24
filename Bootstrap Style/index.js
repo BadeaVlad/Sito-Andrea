@@ -1,3 +1,7 @@
+function init(){
+    backgroundImage();
+};
+
 function backgroundImage(){
     var x = document.getElementById("backgroundImage");
     var gallery = document.getElementById("navbarGallery");
@@ -6,7 +10,7 @@ function backgroundImage(){
     var screenWidth = document.documentElement.clientWidth;
     var screenHeight = document.documentElement.clientHeight;
     //var svgMarginLeft = (screenWidth-200)/2;
-    firmaCalligrafica.style.marginLeft = "50px";
+    //firmaCalligrafica.style.marginLeft = "50px";
     console.log("ciao");
     if (screenWidth > screenHeight){
         x.className = "img-fluid vh-100";
