@@ -43,7 +43,6 @@ function randomizerImg(){
     var i = Math.floor( Math.random()*8);
     x.src = backgroungImages[i];
     bodyBackgroundColor.style.backgroundColor = backgroundColors[i];
-    x.animate
 };
 function timer(){
     window.setInterval("randomizerImg()", 5000);
