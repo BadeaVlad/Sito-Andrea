@@ -3,45 +3,30 @@
 }*/
 
 @media (max-width: 575px) {
-    #body{
-        background-color: #2a2a2a;
-    }
     #firmaCalligrafica{
         height: 47px;
     }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-    #body{
-        background-color: #2a2a2a;
-    }
     #firmaCalligrafica{
         height: 47px;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    #body{
-        background-color: #2a2a2a;
-    }
     #firmaCalligrafica{
         height: 47px;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    #body{
-        background-color: #2a2a2a;
-    }
     #firmaCalligrafica{
         height: 47px;
     }
 }
 
 @media (min-width: 1200px) {
-    #body{
-        background-color: #2a2a2a;
-    }
     #firmaCalligrafica{
         height: 47px;
     }
