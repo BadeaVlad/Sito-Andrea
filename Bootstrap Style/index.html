@@ -12,24 +12,34 @@
     <title>Bootstrap Style</title>
 </head>
 <body id="body" onload="init()">
+    <img id="backgroundCover" class="img-fluid mx-auto" src="" alt="Responsive image">
     <header id="header">
-        <nav class="navbar navbar-expand-md navbar-light bg-light" style="height: 63px;" id="navbar">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top position-relative" style="height: 63px;" id="navbar">
             <button id="navbarButton" class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <!--<a class="navbar-brand" href="#">
                 <img id="firmaCalligrafica" src="Firma_Calligrafica.svg">
             </a>-->
-            <div class="navbar-collapse collapse justify-content-end" id="navbarCollapse">
-                <a id="navbarGallery" class="navbar-link mx-5" href="bday.html" style="font-size: 15px;">GALLERY</a>
-                <a id="navbarProjects" class="navbar-link mx-5" href="#" style="font-size: 15px;">PROJECTS</a>
-                <a id="navbarWallpaper" class="navbar-link mx-5" href="#" style="font-size: 15px;">WALLPAPER</a>
-                <a id="navbarWallpaper" class="navbar-link mx-5" href="#" style="font-size: 15px;">INFO</a>
+            <a class="navbar-brand" href="#" style="font-size: 15px; margin-left: 16%">ANDREA MAMONE</a>
+            <div class="navbar-collapse collapse justify-content-center" id="navbarCollapse">
+                <li>
+                    <a id="navbarGallery" class="navbar-link mx-5" href="bday.html" style="font-size: 15px;">GALLERY</a>
+                </li>
+                <li>
+                    <a id="navbarProjects" class="navbar-link mx-5" href="#" style="font-size: 15px;">PROJECTS</a>
+                </li>
+                <li>
+                    <a id="navbarWallpaper" class="navbar-link mx-5" href="#" style="font-size: 15px;">WALLPAPER</a>
+                </li>
+                <li>
+                    <a id="navbarAbout" class="navbar-link mx-5" href="#" style="font-size: 15px;">ABOUT</a>
+                </li>
             </div>
         </nav>
     </header>
     <div class="text-center">
-        <img id="backgroundImage" src="" class="img-fluid mx-auto" alt="Responsive image">
+        <img id="backgroundImage" src="" class="img-fluid mx-auto position-relative" alt="Responsive image">
     </div>
 </body>
 </html>
