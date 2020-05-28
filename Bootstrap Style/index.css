@@ -6,17 +6,11 @@
     div li{
         list-style-type: none;
     }
-    #firmaCalligrafica{
-        height: 47px;
-    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
     div li{
         list-style-type: none;
-    }
-    #firmaCalligrafica{
-        height: 47px;
     }
 }
 
@@ -24,25 +18,16 @@
     div li{
         list-style-type: none;
     }
-    #firmaCalligrafica{
-        height: 47px;
-    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
     div li{
         list-style-type: none;
     }
-    #firmaCalligrafica{
-        height: 47px;
-    }
 }
 
 @media (min-width: 1200px) {
     div li{
         list-style-type: none;
-    }
-    #firmaCalligrafica{
-        height: 47px;
     }
 }
