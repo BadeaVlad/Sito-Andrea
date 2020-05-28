@@ -1,7 +1,7 @@
 function init(){
+    navbar();
     //timer();
     //backgroundImage();
-    navbar();
 };
 
 function navbar(){
